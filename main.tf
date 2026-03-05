@@ -1,5 +1,5 @@
-resource "google_storage_bucket" "my-new-test-vp" {
-  name                     = "cx-vp-new-build-no-public-access-bucket5"
+resource "google_storage_bucket" "terarform-bucket" {
+  name                     = "new-cx-vp-new-build-no-public-access-bucket5"
   project                  = "complex-dev-450908"
   location                 = "US"
   force_destroy            = true
