@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "my-new" {
+resource "google_storage_bucket" "my-new-test-vp" {
   name                     = "cx-vp-new-build-no-public-access-bucket5"
   project                  = "complex-dev-450908"
   location                 = "US"
